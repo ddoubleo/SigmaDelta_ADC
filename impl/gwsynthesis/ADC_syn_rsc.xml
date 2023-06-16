@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="ADC_top" Lut="1">
+    <SubModule name="PLL_inst"/>
+    <SubModule name="SSD_ADC" Register="31" Alu="9" Lut="23">
+        <SubModule name="box_ave" Register="35" Alu="11" Lut="19"/>
+    </SubModule>
+    <SubModule name="debug_spi" Register="19" Lut="25"/>
+</Module>

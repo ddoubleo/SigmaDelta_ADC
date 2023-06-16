@@ -1,0 +1,46 @@
+[
+ {
+  "InstFile" : "C:/Work/ADC/ADC/src/adc_top.v",
+  "InstLine" : 9,
+  "InstName" : "ADC_top",
+  "ModuleFile" : "C:/Work/ADC/ADC/src/adc_top.v",
+  "ModuleLine" : 9,
+  "ModuleName" : "ADC_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Work/ADC/ADC/src/adc_top.v",
+    "InstLine" : 55,
+    "InstName" : "PLL_inst",
+    "ModuleFile" : "C:/Work/ADC/ADC/src/gowin_rpll/gowin_rpll.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "C:/Work/ADC/ADC/src/adc_top.v",
+    "InstLine" : 69,
+    "InstName" : "SSD_ADC",
+    "ModuleFile" : "C:/Work/ADC/ADC/src/sigmadelta_adc.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "sigmadelta_adc",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Work/ADC/ADC/src/sigmadelta_adc.v",
+      "InstLine" : 104,
+      "InstName" : "box_ave",
+      "ModuleFile" : "C:/Work/ADC/ADC/src/box_ave.v",
+      "ModuleLine" : 13,
+      "ModuleName" : "box_ave"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Work/ADC/ADC/src/adc_top.v",
+    "InstLine" : 96,
+    "InstName" : "debug_spi",
+    "ModuleFile" : "C:/Work/ADC/ADC/src/spi_transmitter.v",
+    "ModuleLine" : 5,
+    "ModuleName" : "spi_transmitter"
+   }
+  ]
+ }
+]

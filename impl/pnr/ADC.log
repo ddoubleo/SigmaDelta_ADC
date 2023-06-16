@@ -1,0 +1,13 @@
+Reading netlist file: "C:\Work\ADC\ADC\impl\gwsynthesis\ADC.vg"
+Parsing netlist file "C:\Work\ADC\ADC\impl\gwsynthesis\ADC.vg" completed
+Processing netlist completed
+Reading constraint file: "C:\Work\ADC\ADC\src\ports.cst"
+Physical Constraint parsed completed
+Running placement......
+ERROR  (PR2074) : Bank 0 vccio(3.3) is locked by other constraint or embedded port, conflicting BANK_VCCIO set by 'analog_cmp_ibuf' : IO_TYPE = 2.5 in the same bank
+ERROR  (CT1094) : 'analog_cmp' can't be placed according to constraint
+Generate file "C:\Work\ADC\ADC\impl\pnr\ADC.pin.html" completed
+Generate file "C:\Work\ADC\ADC\impl\pnr\ADC.rpt.html" completed
+Generate file "C:\Work\ADC\ADC\impl\pnr\ADC.rpt.txt" completed
+Fri May 20 14:36:38 2022
+

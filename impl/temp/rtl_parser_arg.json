@@ -1,0 +1,32 @@
+{
+ "Files" : [
+  {
+   "Path" : "C:/Work/ADC/ADC/src/adc_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Work/ADC/ADC/src/box_ave.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Work/ADC/ADC/src/gowin_rpll/gowin_rpll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Work/ADC/ADC/src/sigmadelta_adc.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Work/ADC/ADC/src/spi_transmitter.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Work/ADC/ADC/impl/temp/rtl_parser.result",
+ "Top" : "ADC_top",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

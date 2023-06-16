@@ -1,0 +1,34 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Work\ADC\ADC\src\adc_top.v'
+Analyzing Verilog file 'C:\Work\ADC\ADC\src\box_ave.v'
+Analyzing Verilog file 'C:\Work\ADC\ADC\src\gowin_rpll\gowin_rpll.v'
+Analyzing Verilog file 'C:\Work\ADC\ADC\src\sigmadelta_adc.v'
+Analyzing Verilog file 'C:\Work\ADC\ADC\src\spi_transmitter.v'
+Compiling module 'ADC_top'("C:\Work\ADC\ADC\src\adc_top.v":9)
+Compiling module 'Gowin_rPLL'("C:\Work\ADC\ADC\src\gowin_rpll\gowin_rpll.v":9)
+Compiling module 'sigmadelta_adc(LPF_DEPTH_BITS=4)'("C:\Work\ADC\ADC\src\sigmadelta_adc.v":9)
+Compiling module 'box_ave'("C:\Work\ADC\ADC\src\box_ave.v":13)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("C:\Work\ADC\ADC\src\box_ave.v":83)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("C:\Work\ADC\ADC\src\sigmadelta_adc.v":126)
+Compiling module 'spi_transmitter(N=9,CLK_FREQ=62500000,SPI_FREQ=15625000)'("C:\Work\ADC\ADC\src\spi_transmitter.v":5)
+NOTE  (EX0101) : Current top module is "ADC_top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Work\ADC\ADC\impl\gwsynthesis\ADC.vg" completed
+[100%] Generate report file "C:\Work\ADC\ADC\impl\gwsynthesis\ADC_syn.rpt.html" completed
+GowinSynthesis finish
